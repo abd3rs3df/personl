@@ -2,32 +2,39 @@
 <HTMl>
   <HEAD>
 
-    <style>
-      img {
-  border-radius: 66%;
-  border: solid 2px rgb(18, 19, 18);
-  height:223px;
-  margin-left: 44px;
-  box-shadow:0 0 3px 1px rgb(18, 19, 18);
-  text-align: right;
-  
-
+<style>
+.column{
+  width: 33.33%;
+  float: left;
 }
-body{
-
+@media screen and (max-width: 555px)
+{
+.column {
+  display: blue;
+  width: 100%;
+  float: none;
 }
-h1{
-  font-size: 22px;
-  text-align: center;
-  margin-left: 44px;
-  text-align: center;
-
 }
     </style>
   </HEAD>
   <body>
-   <img src="/pexels-photo-220453.jpeg" alt="Avatar" >
-   <h1>abdullah </h1>
-   <p>Lorem ipsum dolor sit amet consectet</p>
+   <div class="header">
+     <div class ="column">
+       <h1> hello </h1>
+       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis fugit perferendis molestias culpa totam voluptates accusantium omnis reprehenderit rem ab illo asperiores sunt, dolorem quod id assumenda est ipsam eaque!</p>
+     </div>
+     <div class ="column">
+      <h1> hello </h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis fugit perferendis molestias culpa totam voluptates accusantium omnis reprehenderit rem ab illo asperiores sunt, dolorem quod id assumenda est ipsam eaque!</p>
+    </div>
+    <div class ="column">
+      <h1> hello </h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis fugit perferendis molestias culpa totam voluptates accusantium omnis reprehenderit rem ab illo asperiores sunt, dolorem quod id assumenda est ipsam eaque!</p>
+    </div>
+    
+
+   </div>
+
+
   </body>
 </HTMl>
